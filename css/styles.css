@@ -1,0 +1,284 @@
+/*GENERALES*/
+
+body#fondo {
+	background-color: #a3c0af;
+	font-family: 'Vollkorn', serif;
+}
+
+/*NAVEGADOR*/
+
+#menuNav{
+	background-color: #a3c0af;
+}
+
+#navbarSupportedContent{
+	font-size: 1.8rem;
+}
+
+/*HOME*/
+
+section.seccionInferior{
+	margin-bottom: 30px;
+	
+}
+
+h3.seccionNovedades,.seccionRecomendaciones{
+	color: #66977b;
+	font-weight:bold;
+	animation-name: animatitulos;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	animation-duration: 10s;
+	animation-delay: 0s;
+}
+@keyframes animatitulos{
+	0%{color:#66977b}
+	5%{color:black}
+	10%{color:#66977b}
+	15%{color:black}
+	20%{color:#66977b}
+	25%{color:black}
+	30%{color:#66977b}
+	35%{color:black}
+	40%{color:#66977b}
+	45%{color:black}
+	50%{color:#66977b}
+	55%{color:black}
+	60%{color:#66977b}
+	65%{color:black}
+	70%{color:#66977b}
+	75%{color:black}
+	80%{color:#66977b}
+	85%{color:black; opacity: 1}
+	100%{color:#66977b; opacity:0}
+}
+
+/*Sección Novedades*/
+
+article.articuloNovedades {
+	width: 550px;
+	height: 300px;
+	overflow-y: scroll;
+}
+
+/*Sección Recomendaciones*/
+
+article.articuloRecomendaciones {
+	width: 550px;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+article.articuloRecomendaciones p{
+		font-size: 2rem;
+	}
+
+article.articuloRecomendaciones div{
+	width: 170px;
+	height: 160px;
+	transition: 0.25s;
+}
+
+article.articuloRecomendaciones div:hover{
+	width: 200px;
+	height: 190px;
+}
+
+article.articuloRecomendaciones div.recomUno{
+	background-image: url('img/reco1.jpg');
+	background-repeat: round;
+}
+
+
+/*SECCION CATALOGO*/
+
+/*Sección Grilla Catalogo*/
+
+#grillaCatalogo{
+	width: 90%;
+	height: 750px;
+	display: grid;
+	grid-template-areas: 
+	"discoUno discoDos discoTres Spotify"
+	"discoCuatro discoCinco discoSeis Spotify"
+	"discoSiete discoOcho discoNueve Spotify";
+	grid-template-rows: 180px 180px 200px;
+	grid-template-columns: 200px 200px 200px 300px;
+	justify-content: space-around;
+	grid-row-gap: 100px;
+	grid-column-gap: 100px;
+}
+
+div#grillaCatalogo div{
+	transition: 0.25s
+}
+
+div#grillaCatalogo div:hover{
+	width: 260px;
+	height: 240px;
+}
+
+.discoUno{
+	grid-area: discoUno;
+	width: 200px;
+	height: 180px;
+	border: 1px solid black;
+	background-image: url('img/disco1.jpg');
+	background-repeat: round;
+
+}
+.discoDos{
+	grid-area: discoDos;
+	width: 200px;
+	height: 180px;
+	border: 1px solid black;
+	background-image: url('img/disco2.jpg');
+	background-repeat: round;
+}
+.discoTres{
+	grid-area: discoTres;
+	width: 200px;
+	height: 180px;
+	border: 1px solid black;
+	background-image: url('img/disco3.jpg');
+	background-repeat: round;
+}
+.discoCuatro{
+	grid-area: discoCuatro;
+	width: 200px;
+	height: 180px;
+	border: 1px solid black;
+	background-image: url('img/disco4.jpg');
+	background-repeat: round;
+}
+.discoCinco{
+	grid-area: discoCinco;
+	width: 200px;
+	height: 180px;
+	border: 1px solid black;
+	background-image: url('img/disco5.jpg');
+	background-repeat: round;
+}
+.discoSeis{
+	grid-area: discoSeis;
+	width: 200px;
+	height: 180px;
+	border: 1px solid black;
+	background-image: url('img/disco6.jpg');
+	background-repeat: round;
+}
+.discoSiete{
+	grid-area: discoSiete;
+	width: 200px;
+	height: 180px;
+	border: 1px solid black;
+	background-image: url('img/disco7.jpg');
+	background-repeat: round;
+}
+.discoOcho{
+	grid-area: discoOcho;
+	width: 200px;
+	height: 180px;
+	border: 1px solid black;
+	background-image: url('img/disco8.jpg');
+	background-repeat: round;
+}
+.discoNueve{
+	grid-area: discoNueve;
+	width: 200px;
+	height: 180px;
+	border: 1px solid black;
+	background-image: url('img/disco9.jpg');
+	background-repeat: round;
+}
+
+aside.Spotify{
+	grid-area: Spotify;
+	width: 300px;
+	height: 750px;
+}
+
+/*SECCION COMO COMPRAR*/
+
+/*Secciones*/
+
+
+/*SECCION NOSOTROS*/
+
+/*Nosotros*/
+
+section.textoNosotros{
+	font-size: 20px;
+}
+
+/*SECCION CONTACTO*/
+
+/*Texto Contacto*/
+
+.contenidoContacto{
+	padding-top: 100px;
+	background-color: #a3c0af;
+	font-family: 'Vollkorn', serif;
+}
+
+
+.textoDatos{
+	font-size: 3rem;
+	margin-left: 50px;
+}
+
+.textoEncargos{
+	margin-top: 100px;
+	margin-left: 50px;
+	font-size: 2rem;
+}
+
+
+
+/*FOOTER*/
+
+#footerTodo{
+	display: flex;
+	border: 2px solid;
+	font-size: 20px;
+	height: 10%;
+	background-image: linear-gradient(white, #66977b);
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+#footerRedes{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: flex-end;
+}
+.logofacebook{
+	height: 30px;
+	width: 30px;
+	background-image: url('img/logofacebook.png');
+	background-repeat: round;
+}
+.logotwitter{
+	height: 30px;
+	width: 30px;
+	background-image: url('img/logotwitter.png');
+	background-repeat: round;
+}
+.logoinstagram{
+	height: 30px;
+	width: 30px;
+	background-image: url('img/logoinstagram.png');
+	background-repeat: round;
+}
+footer div a{
+	transition: 0.25s;
+}
+footer div a:hover{
+	height: 50px;
+	width: 50px;
+}

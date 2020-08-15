@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Records - Contacto</title>
+	<meta name="keywords" content="vinilos,vinyls,music,musica,discos,records">
+	<meta name="description" content="Somos una empresa dedicada a revivir la reproducción de música en la mejor calidad que existe. Vendemos vinilos de todos los musicales que existen y te ayudamos a encontrar la música que buscas.">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="container-fluid" id="fondo">
+	<nav id="menuNav" class="navbar navbar-expand-lg navbar-light col-md-12">
+	  <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="200rem" alt="" loading="lazy"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="justify-content-end navbar-nav mr-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html">Home</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="catalogo.html">Catálogo</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="comocomprar.html">Cómo Comprar?</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="nosotros.html">Nosotros</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="contacto.html">Contacto<span class="sr-only">(current)</span></a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+<!--TextoContacto-->
+	<section class="row contenidoContacto">
+		<article class="col-md-6 rounded" id="contactoFondo">
+			<h3 class="textoDatos">Dejanos tus datos si queres recibir novedades y/o promociones.</h3>
+			<h4 class="textoEncargos">Si no encontraste el disco que buscabas en nuestro catálogo podes encargarlo escribiéndonos a nuestro correo: <a href="mailto:contacto@myrecords.com">contacto@myrecords.com</a></h4>
+		</article>
+
+<!--Formulario Contacto-->
+	<form action="sumbit" method="get" class="col-md-5">
+		<div class="form-group col-md-6">
+			<label for="email">Email</label>
+			<input type="email" name="email" placeholder="Ingresa tu email" class="form-control">
+		</div>
+		<div class="form-group custom-checkbox col-md-5"> Preferencias Musicales:
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" name=rock value="rock" id="rock">
+				<label class="form-check-label" for="rock">Rock
+ 				 </label>
+ 			</div>
+ 			<div class="form-check">
+ 				 <input class="form-check-input" type="checkbox" name=pop value="pop" id="pop">
+ 				 <label class="form-check-label" for="pop">Pop
+ 				 </label>
+ 			</div>
+ 			<div class="form-check">
+				<input class="form-check-input" type="checkbox" name=blues value="blues" id="blues">
+				<label class="form-check-label" for="blues">Blues
+ 				 </label>
+ 			</div>
+ 			<div class="form-check">
+				<input class="form-check-input" type="checkbox" name=jazz value="jazz" id="jazz">
+				<label class="form-check-label" for="jazz">Jazz
+ 				 </label>
+ 			</div>
+ 			<div class="form-check">
+				<input class="form-check-input" type="checkbox" name=hiphoprap value="hiphoprap" id="hiphoprap">
+				<label class="form-check-label" for="hiphoprap">Hip Hop / Rap
+ 				 </label>
+ 			</div>
+ 			<div class="form-check">
+				<input class="form-check-input" type="checkbox" name=electronica value="electronica" id="electronica">
+				<label class="form-check-label" for="electronica">Electrónica
+ 				 </label>
+ 			</div>
+ 			<div class="form-check">
+				<input class="form-check-input" type="checkbox" name=indie value="indie" id="indie">
+				<label class="form-check-label" for="indie">Indie
+ 				 </label>
+ 			</div>
+ 			<div class="form-check">
+				<input class="form-check-input" type="checkbox" name=tango value="tango" id="tango">
+				<label class="form-check-label" for="tango">Tango
+ 				 </label>
+ 			</div>
+ 			<div class="form-check">
+				<input class="form-check-input" type="checkbox" name=clasicaopera value="clasicaopera" id="clasicaopera">
+				<label class="form-check-label" for="clasicaopera">Música Clásica / Opera
+ 				 </label>
+ 			</div>
+ 			<div class="form-check">
+				<input class="form-check-input" type="checkbox" name=cachengue value="cachengue" id="cachengue">
+				<label class="form-check-label" for="cachengue">Cachengue
+ 				 </label>
+ 			</div>
+ 			<div class="form-check">
+				<input class="form-check-input" type="checkbox" name=otros value="otros" id="otros">
+				<label class="form-check-label" for="otros">Otros
+ 				 </label>
+ 			</div>			
+		</div>
+		<div class="form-group col-md-5">
+			<label for="suscripcioncorreo">Que quisieras recibir en tu correo?</label>
+				<select name="suscripcioncorreo" class="form-control">
+					<option value="novedadesypromociones">Novedades y promociones</option>
+					<option value="novedades">Solo Novedades</option>
+					<option value="promociones">Solo Promociones</option>
+				</select>
+		</div>
+		<div class="form-group col-md-8">
+			<textarea name="sugerencias"cols="30" rows="5" placeholder="Escribinos tus sugerencias..." class="form-control"></textarea>
+		</div>
+		<div class="form-group col-md-5">
+			<input type="submit" class="btn btn-success">
+			<input type="reset" class="btn btn-secondary">
+		</div>
+	</form>
+</section>
+
+
+</body>
+<br>
+<br>
+<br>
+<footer id="footerTodo">
+	<div>Copyrigth Nicolás Torres</div>
+	<div id="footerRedes">Encontranos en redes sociales 
+		<a href="https://www.facebook.com" target="_blank" class="logofacebook"></a>
+		<a href="https://www.twitter.com" target="_blank"class="logotwitter"></a>
+		<a href="https://www.instagram.com" target="_blank"class="logoinstagram"></a>
+	</div>
+</footer>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</html>

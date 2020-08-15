@@ -1,0 +1,47 @@
+/*FOOTER*/
+
+#footerTodo{
+	display: flex;
+	border: 2px solid;
+	font-size: 20px;
+	font-family: $fontTextos;
+	height: 7rem;
+	background-image: linear-gradient(white, #66977b);
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+#footerRedes{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: flex-end;
+}
+.logofacebook{
+	height: 30px;
+	width: 30px;
+	background-image: url('img/logofacebook.png');
+	background-repeat: round;
+}
+.logotwitter{
+	height: 30px;
+	width: 30px;
+	background-image: url('img/logotwitter.png');
+	background-repeat: round;
+}
+.logoinstagram{
+	height: 30px;
+	width: 30px;
+	background-image: url('img/logoinstagram.png');
+	background-repeat: round;
+}
+footer div a{
+	transition: 0.25s;
+}
+footer div a:hover{
+	height: 50px;
+	width: 50px;
+}

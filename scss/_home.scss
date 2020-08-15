@@ -1,0 +1,77 @@
+/*HOME*/
+
+section.seccionInferior{
+	margin-bottom: 30px;
+	
+}
+
+h3.seccionNovedades,.seccionRecomendaciones{
+	color: #66977b;
+	font-weight:bold;
+	animation-name: animatitulos;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	animation-duration: 10s;
+	animation-delay: 0s;
+}
+@keyframes animatitulos{
+	0%{color:#66977b}
+	5%{color:black}
+	10%{color:#66977b}
+	15%{color:black}
+	20%{color:#66977b}
+	25%{color:black}
+	30%{color:#66977b}
+	35%{color:black}
+	40%{color:#66977b}
+	45%{color:black}
+	50%{color:#66977b}
+	55%{color:black}
+	60%{color:#66977b}
+	65%{color:black}
+	70%{color:#66977b}
+	75%{color:black}
+	80%{color:#66977b}
+	85%{color:black; opacity: 1}
+	100%{color:#66977b; opacity:0}
+}
+
+/*Sección Novedades*/
+
+article.articuloNovedades {
+	font-family: $fontTextos;
+	width: 550px;
+	height: 300px;
+	overflow-y: scroll;
+}
+
+/*Sección Recomendaciones*/
+
+article.articuloRecomendaciones {
+	font-family: $fontTextos;
+	width: 550px;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+article.articuloRecomendaciones p{
+		font-size: 2rem;
+	}
+
+article.articuloRecomendaciones div{
+	width: 170px;
+	height: 160px;
+	transition: 0.25s;
+}
+
+article.articuloRecomendaciones div:hover{
+	width: 200px;
+	height: 190px;
+}
+
+article.articuloRecomendaciones div.recomUno{
+	background-image: url('img/reco1.jpg');
+	background-repeat: round;
+}
+
