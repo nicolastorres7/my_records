@@ -41,8 +41,7 @@ h3.seccionNovedades,.seccionRecomendaciones{
 article.articuloNovedades {
 	font-family: $fontTextos;
 	width: 550px;
-	height: 300px;
-	overflow-y: scroll;
+	height: 320px;
 }
 
 /*Sección Recomendaciones*/
@@ -50,28 +49,9 @@ article.articuloNovedades {
 article.articuloRecomendaciones {
 	font-family: $fontTextos;
 	width: 550px;
-	height: 300px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	height: 320px;
 }
 article.articuloRecomendaciones p{
 		font-size: 2rem;
 	}
-
-article.articuloRecomendaciones div{
-	width: 170px;
-	height: 160px;
-	transition: 0.25s;
-}
-
-article.articuloRecomendaciones div:hover{
-	width: 200px;
-	height: 190px;
-}
-
-article.articuloRecomendaciones div.recomUno{
-	background-image: url('img/reco1.jpg');
-	background-repeat: round;
-}
 

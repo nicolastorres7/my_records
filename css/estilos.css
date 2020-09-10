@@ -9,7 +9,7 @@ body#fondo {
   background-color: #a3c0af; }
 
 #navbarSupportedContent {
-  font-size: 1.8rem; }
+  font-size: 1.4rem; }
 
 /*HOME*/
 section.seccionInferior {
@@ -70,130 +70,40 @@ h3.seccionNovedades, .seccionRecomendaciones {
 article.articuloNovedades {
   font-family: "Nunito Sans", sans-serif;
   width: 550px;
-  height: 300px;
-  overflow-y: scroll; }
+  height: 320px; }
 
 /*Sección Recomendaciones*/
 article.articuloRecomendaciones {
   font-family: "Nunito Sans", sans-serif;
   width: 550px;
-  height: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
+  height: 320px; }
 
 article.articuloRecomendaciones p {
   font-size: 2rem; }
 
-article.articuloRecomendaciones div {
-  width: 170px;
-  height: 160px;
-  transition: 0.25s; }
-
-article.articuloRecomendaciones div:hover {
-  width: 200px;
-  height: 190px; }
-
-article.articuloRecomendaciones div.recomUno {
-  background-image: url("img/reco1.jpg");
-  background-repeat: round; }
-
 /*SECCION CATALOGO*/
-/*Sección Grilla Catalogo*/
-#grillaCatalogo {
-  width: 90%;
-  height: 750px;
-  display: grid;
-  grid-template-areas: "discoUno discoDos discoTres Spotify" "discoCuatro discoCinco discoSeis Spotify" "discoSiete discoOcho discoNueve Spotify";
-  grid-template-rows: 180px 180px 200px;
-  grid-template-columns: 200px 200px 200px 300px;
-  justify-content: space-around;
-  grid-row-gap: 100px;
-  grid-column-gap: 100px; }
+#textoDiscos {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px; }
 
-div#grillaCatalogo div {
-  transition: 0.25s; }
-
-div#grillaCatalogo div:hover {
-  width: 260px;
-  height: 240px; }
-
-.discoUno {
-  grid-area: discoUno;
-  width: 200px;
-  height: 180px;
+#textoPag {
+  background-color: #a3c0af;
   border: 1px solid black;
-  background-image: url("img/disco1.jpg");
-  background-repeat: round; }
+  color: black;
+  font-family: "Raleway", sans-serif; }
 
-.discoDos {
-  grid-area: discoDos;
-  width: 200px;
-  height: 180px;
+#textoPagActive {
+  background-color: #798c81;
   border: 1px solid black;
-  background-image: url("img/disco2.jpg");
-  background-repeat: round; }
+  color: black;
+  font-family: "Raleway", sans-serif; }
 
-.discoTres {
-  grid-area: discoTres;
-  width: 200px;
-  height: 180px;
+#textoPagDisabled {
+  background-color: #a3c0af;
   border: 1px solid black;
-  background-image: url("img/disco3.jpg");
-  background-repeat: round; }
-
-.discoCuatro {
-  grid-area: discoCuatro;
-  width: 200px;
-  height: 180px;
-  border: 1px solid black;
-  background-image: url("img/disco4.jpg");
-  background-repeat: round; }
-
-.discoCinco {
-  grid-area: discoCinco;
-  width: 200px;
-  height: 180px;
-  border: 1px solid black;
-  background-image: url("img/disco5.jpg");
-  background-repeat: round; }
-
-.discoSeis {
-  grid-area: discoSeis;
-  width: 200px;
-  height: 180px;
-  border: 1px solid black;
-  background-image: url("img/disco6.jpg");
-  background-repeat: round; }
-
-.discoSiete {
-  grid-area: discoSiete;
-  width: 200px;
-  height: 180px;
-  border: 1px solid black;
-  background-image: url("img/disco7.jpg");
-  background-repeat: round; }
-
-.discoOcho {
-  grid-area: discoOcho;
-  width: 200px;
-  height: 180px;
-  border: 1px solid black;
-  background-image: url("img/disco8.jpg");
-  background-repeat: round; }
-
-.discoNueve {
-  grid-area: discoNueve;
-  width: 200px;
-  height: 180px;
-  border: 1px solid black;
-  background-image: url("img/disco9.jpg");
-  background-repeat: round; }
-
-aside.Spotify {
-  grid-area: Spotify;
-  width: 300px;
-  height: 750px; }
+  color: grey;
+  font-family: "Raleway", sans-serif; }
 
 /*SECCION COMO COMPRAR*/
 /*Secciones*/
@@ -225,21 +135,27 @@ section.textoNosotros {
 
 /*FOOTER*/
 #footerTodo {
+  margin-top: 30px;
   display: flex;
-  border: 2px solid;
   font-size: 20px;
   font-family: "Nunito Sans", sans-serif;
-  height: 7rem;
-  background-image: linear-gradient(white, #66977b);
+  height: 5rem;
   justify-content: space-between;
   align-content: center;
   align-items: center;
   flex-direction: row; }
 
-#footerRedes {
+#footerCopy {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start; }
+
+#footerRedes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-content: center;
   justify-content: flex-end; }
 
