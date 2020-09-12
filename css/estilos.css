@@ -108,6 +108,10 @@ article.articuloRecomendaciones p {
 section {
   font-family: "Nunito Sans", sans-serif; }
 
+@media only screen and (max-width: 450px) {
+  .seccionComprar {
+    margin-top: 30px; } }
+
 /*SECCION NOSOTROS*/
 /*Nosotros*/
 section.textoNosotros {
@@ -120,10 +124,6 @@ section.textoNosotros {
 
 #formularioContacto {
   margin-top: 30px; }
-
-@media only screen and (max-width: 450px) {
-  #formularioContacto {
-    margin-top: 30px; } }
 
 /*FOOTER*/
 #footerTodo {

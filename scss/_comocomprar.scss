@@ -5,3 +5,8 @@ section{
 	font-family: $fontTextos;
 }
 
+@media only screen and (max-width: 450px) {
+	.seccionComprar{
+		margin-top:30px;
+		}		
+}
