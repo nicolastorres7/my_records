@@ -1,23 +1,15 @@
 /*FOOTER*/
 
 #footerTodo{
-	margin-top: 30px;
+	margin-top: 18px;
 	display: flex;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: $fontTextos;
 	height: 5rem;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-content: center;
 	align-items: center;
 	flex-direction: row;
-}
-
-#footerCopy{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-content: center;
-	justify-content: flex-start;
 }
 
 #footerRedes{
@@ -30,6 +22,7 @@
 .logofacebook{
 	height: 30px;
 	width: 30px;
+	margin-left:10px;
 	background-image: url('img/logofacebook.png');
 	background-repeat: round;
 }
@@ -60,7 +53,7 @@ footer div a:hover{
 		font-size: 17px;
 		font-family: $fontTextos;
 		height: 5rem;
-		justify-content: space-between;
+		justify-content:flex-end;
 		align-content: center;
 		align-items: center;
 		flex-direction: row;
@@ -75,19 +68,20 @@ footer div a:hover{
 	}
 	.logofacebook{
 		height: 2em;
-		width: 3em;
+		width: 2em;
+		margin-left:10px;
 		background-image: url('img/logofacebook.png');
 		background-repeat: round;
 	}
 	.logotwitter{
 		height: 2em;
-		width: 3em;
+		width: 2em;
 		background-image: url('img/logotwitter.png');
 		background-repeat: round;
 	}
 	.logoinstagram{
 		height: 2em;
-		width: 3em;
+		width: 2em;
 		background-image: url('img/logoinstagram.png');
 		background-repeat: round;
 	}
