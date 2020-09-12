@@ -9,10 +9,12 @@ body#fondo {
   background-color: #a3c0af; }
 
 #navbarSupportedContent {
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  font-weight: bold; }
 
 /*HOME*/
 section.seccionInferior {
+  margin-top: 30px;
   margin-bottom: 30px; }
 
 h3.seccionNovedades, .seccionRecomendaciones {
@@ -68,15 +70,11 @@ h3.seccionNovedades, .seccionRecomendaciones {
 
 /*Sección Novedades*/
 article.articuloNovedades {
-  font-family: "Nunito Sans", sans-serif;
-  width: 550px;
-  height: 320px; }
+  font-family: "Nunito Sans", sans-serif; }
 
 /*Sección Recomendaciones*/
 article.articuloRecomendaciones {
-  font-family: "Nunito Sans", sans-serif;
-  width: 550px;
-  height: 320px; }
+  font-family: "Nunito Sans", sans-serif; }
 
 article.articuloRecomendaciones p {
   font-size: 2rem; }
@@ -117,21 +115,15 @@ section.textoNosotros {
 
 /*SECCION CONTACTO*/
 /*Texto Contacto*/
-.contenidoContacto {
-  padding-top: 100px;
-  background-color: #a3c0af;
-  font-family: "Nunito Sans", sans-serif; }
+.seccionContacto {
+  margin-top: 20px; }
 
-.textoDatos {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 3rem;
-  margin-left: 10px; }
+#formularioContacto {
+  margin-top: 30px; }
 
-.textoEncargos {
-  font-family: "Nunito Sans", sans-serif;
-  margin-top: 100px;
-  margin-left: 10px;
-  font-size: 2rem; }
+@media only screen and (max-width: 450px) {
+  #formularioContacto {
+    margin-top: 30px; } }
 
 /*FOOTER*/
 #footerTodo {
@@ -183,3 +175,37 @@ footer div a {
 footer div a:hover {
   height: 50px;
   width: 50px; }
+
+@media only screen and (max-width: 450px) {
+  #footerTodo {
+    margin-top: 30px;
+    display: flex;
+    font-size: 17px;
+    font-family: "Nunito Sans", sans-serif;
+    height: 5rem;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-direction: row; }
+  #footerRedes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    font-size: 18px; }
+  .logofacebook {
+    height: 2em;
+    width: 3em;
+    background-image: url("img/logofacebook.png");
+    background-repeat: round; }
+  .logotwitter {
+    height: 2em;
+    width: 3em;
+    background-image: url("img/logotwitter.png");
+    background-repeat: round; }
+  .logoinstagram {
+    height: 2em;
+    width: 3em;
+    background-image: url("img/logoinstagram.png");
+    background-repeat: round; } }

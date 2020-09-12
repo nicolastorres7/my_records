@@ -2,22 +2,14 @@
 
 /*Texto Contacto*/
 
-.contenidoContacto{
-	padding-top: 100px;
-	background-color: $colorbackground;
-	font-family:$fontTextos;
+.seccionContacto{
+	margin-top:20px;
 }
-
-
-.textoDatos{
-	font-family: $fontTextos;
-	font-size: 3rem;
-	margin-left: 10px;
-}
-
-.textoEncargos{
-	font-family: $fontTextos;
-	margin-top: 100px;
-	margin-left: 10px;
-	font-size: 2rem;
+#formularioContacto{
+		margin-top:30px;
+		}	
+@media only screen and (max-width: 450px) {
+	#formularioContacto{
+		margin-top:30px;
+		}		
 }

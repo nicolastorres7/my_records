@@ -1,8 +1,8 @@
 /*HOME*/
 
 section.seccionInferior{
+	margin-top:30px;
 	margin-bottom: 30px;
-	
 }
 
 h3.seccionNovedades,.seccionRecomendaciones{
@@ -40,16 +40,12 @@ h3.seccionNovedades,.seccionRecomendaciones{
 
 article.articuloNovedades {
 	font-family: $fontTextos;
-	width: 550px;
-	height: 320px;
 }
 
 /*Sección Recomendaciones*/
 
 article.articuloRecomendaciones {
 	font-family: $fontTextos;
-	width: 550px;
-	height: 320px;
 }
 article.articuloRecomendaciones p{
 		font-size: 2rem;
